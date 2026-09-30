@@ -1,0 +1,3 @@
+{"id":"demo-choice","group":"knowledge-1","type":"choice","state":{"question":"中国的首都是哪里？"},"instruction":"选择正确答案。","criteria":{"A":"北京","B":"上海","C":"广州"},"label":"A"}
+{"id":"demo-noul","group":"matching-1","type":"noul","state":{"query":"如何办理退票？","candidate":"可在订单详情中申请退票。"},"instruction":"候选回答是否直接回应了问题？","criteria":{"false":"没有直接回应","true":"直接回应"},"label":"true"}
+{"id":"demo-score","group":"quality-1","type":"score","state":{"text":"说明书列出了安装步骤、依赖版本和失败后的恢复方法。"},"instruction":"按信息完整程度评分。","criteria":["信息缺失","仅有部分信息","信息基本完整"],"label":"2"}

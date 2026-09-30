@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "seed": 42,
+  "calibration_fraction": 0,
+  "validation_fraction": 0,
+  "test_fraction": 0,
+  "compression": "gzip",
+  "write_notebooks": false,
+  "adapter_files": ["adapter.py"],
+  "sources": [
+    {
+      "name": "baseline-demo",
+      "source_family": "synthetic_baseline",
+      "task_family": "mixed_decision_contract",
+      "domain": "general",
+      "adapter": "project_jsonl",
+      "paths": ["raw.jsonl"],
+      "split": "train",
+      "original_split": "synthetic",
+      "url": "synthetic:chinese-jev-data-baseline",
+      "revision": "synthetic-v1",
+      "license": "Synthetic examples only"
+    }
+  ]
+}
